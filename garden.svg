@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Potted plant</title>
+  <rect width="600" height="400" fill="#e8f5e9"/>
+  <polygon points="230,260 370,260 350,350 250,350" fill="#c2410c"/>
+  <rect x="296" y="150" width="8" height="112" fill="#134e4a"/>
+  <ellipse cx="255" cy="170" rx="50" ry="22" fill="#0f766e" transform="rotate(-25 255 170)"/>
+  <ellipse cx="345" cy="130" rx="50" ry="22" fill="#0f766e" transform="rotate(25 345 130)"/>
+</svg>

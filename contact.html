@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkillSwap Baguio: trade skills with people in Baguio without using money.">
+  <title>Contact | SkillSwap Baguio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip link for keyboard and screen reader users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header and menu (same on every page) -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">SkillSwap Baguio</a>
+      <nav class="site-nav" aria-label="Main menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Skills</a></li>
+        <li><a href="offer.html">Offer a Skill</a></li>
+        <li><a href="request.html">Request a Skill</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="safety.html">Safety</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content of the page -->
+  <main id="main">
+    <h1>Contact</h1>
+    <div class="two-col">
+      <p class="intro">Have a question or an idea for this project? Send a message.</p>
+      <img src="images/contact.svg" alt="An envelope for sending a message" width="600" height="400">
+    </div>
+    <p class="notice"><strong>Note:</strong> This form is a demo for a school project. Nothing is sent or saved.</p>
+    <form class="form" data-demo="Thank you for your message. This is a demo, so nothing was sent.">
+      <p class="hint">Fields marked with * are required.</p>
+      <label for="c-name">Your name *</label>
+      <input type="text" id="c-name" name="name" required autocomplete="name">
+
+      <label for="c-email">Your email *</label>
+      <input type="email" id="c-email" name="email" required autocomplete="email">
+
+      <label for="c-topic">Topic</label>
+      <select id="c-topic" name="topic">
+        <option>General question</option>
+        <option>Feedback on the website</option>
+        <option>Safety concern</option>
+      </select>
+
+      <label for="c-msg">Message *</label>
+      <textarea id="c-msg" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="button">Send message</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+    <h2>About the maker</h2>
+    <p>Kurt Wagayan, University of Baguio, School of Information Technology, General Luna Road, Baguio City.</p>
+  </main>
+
+  <!-- Footer (same on every page) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>SkillSwap Baguio</strong>: a school project for UN SDG 4, Quality Education.</p>
+      <nav aria-label="Footer menu">
+        <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="videos.html">Video Tutorials</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="references.html">References and Attributions</a></li>
+        </ul>
+      </nav>
+      <p>Made by Kurt Wagayan, University of Baguio, School of Information Technology.</p>
+    </div>
+  </footer>
+
+  <!-- Basic JavaScript: menu toggle, skill filter and form messages -->
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Envelope</title>
+  <rect width="600" height="400" fill="#fdf3e1"/>
+  <rect x="110" y="110" width="380" height="190" rx="14" fill="#c2410c"/>
+  <polyline points="110,125 300,250 490,125" fill="none" stroke="#ffffff" stroke-width="16" stroke-linejoin="round"/>
+</svg>

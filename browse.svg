@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Magnifying glass</title>
+  <rect width="600" height="400" fill="#fff4e8"/>
+  <circle cx="260" cy="180" r="90" fill="none" stroke="#0f766e" stroke-width="22"/>
+  <line x1="326" y1="246" x2="420" y2="340" stroke="#c2410c" stroke-width="26" stroke-linecap="round"/>
+  <rect x="215" y="150" width="90" height="14" fill="#134e4a"/>
+  <rect x="215" y="185" width="60" height="14" fill="#134e4a"/>
+</svg>

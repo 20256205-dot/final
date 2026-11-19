@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Light bulb</title>
+  <rect width="600" height="400" fill="#fff4e8"/>
+  <circle cx="300" cy="170" r="95" fill="#c2410c"/>
+  <rect x="260" y="262" width="80" height="26" rx="8" fill="#134e4a"/>
+  <rect x="270" y="298" width="60" height="18" rx="8" fill="#134e4a"/>
+  <circle cx="300" cy="170" r="30" fill="#ffffff"/>
+</svg>

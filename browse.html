@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkillSwap Baguio: trade skills with people in Baguio without using money.">
+  <title>Skills | SkillSwap Baguio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip link for keyboard and screen reader users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header and menu (same on every page) -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">SkillSwap Baguio</a>
+      <nav class="site-nav" aria-label="Main menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html" aria-current="page">Skills</a></li>
+        <li><a href="offer.html">Offer a Skill</a></li>
+        <li><a href="request.html">Request a Skill</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="safety.html">Safety</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content of the page -->
+  <main id="main">
+    <h1>Browse Skills</h1>
+    <div class="two-col">
+      <p class="intro">Pick a group of skills, or type a word to search, such as math, guitar or computer.</p>
+      <img src="images/browse.svg" alt="A magnifying glass over a list of skills" width="600" height="400">
+    </div>
+    <form class="search" role="search" data-demo-none>
+      <label for="skill-filter">Search skills</label>
+      <input type="search" id="skill-filter" name="q" placeholder="Try: guitar, math, garden">
+      <p id="filter-count" role="status" aria-live="polite"></p>
+    </form>
+    <p class="notice"><strong>Note:</strong> These are sample groups made for this school project. They are not real people.</p>
+    <ul class="grid" id="skill-groups">
+      <li class="card filter-item"><h3><a href="tutorial.html">Tutoring and School Help</a></h3><p>Math tutoring, science review, essay writing, study skills, English reading, exam reviewers.</p></li>
+      <li class="card filter-item"><h3><a href="tech.html">Tech Skills</a></h3><p>Computer basics, HTML and CSS, graphic design, social media safety, spreadsheets, phone help for seniors.</p></li>
+      <li class="card filter-item"><h3><a href="homegarden.html">Home, Garden and Repair</a></h3><p>Vegetable gardening, cooking, sewing, home repairs, composting, baking.</p></li>
+      <li class="card filter-item"><h3><a href="arts.html">Arts, Music and Culture</a></h3><p>Guitar lessons, drawing, weaving, Ilocano language, traditional dance, photography.</p></li>
+    </ul>
+    <p id="no-results" hidden>No skills matched your search. Try another word.</p>
+    <p><a class="button" href="offer.html">Offer a skill</a> <a class="button button-teal" href="request.html">Request a skill</a></p>
+    <p><a href="browse.html">Back to all skills</a></p>
+  </main>
+
+  <!-- Footer (same on every page) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>SkillSwap Baguio</strong>: a school project for UN SDG 4, Quality Education.</p>
+      <nav aria-label="Footer menu">
+        <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="videos.html">Video Tutorials</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="references.html">References and Attributions</a></li>
+        </ul>
+      </nav>
+      <p>Made by Kurt Wagayan, University of Baguio, School of Information Technology.</p>
+    </div>
+  </footer>
+
+  <!-- Basic JavaScript: menu toggle, skill filter and form messages -->
+  <script src="js/script.js"></script>
+</body>
+</html>

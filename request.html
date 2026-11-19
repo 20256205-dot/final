@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkillSwap Baguio: trade skills with people in Baguio without using money.">
+  <title>Request a Skill | SkillSwap Baguio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">SkillSwap Baguio</a>
+      <nav class="site-nav" aria-label="Main menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Skills</a></li>
+        <li><a href="offer.html">Offer a Skill</a></li>
+        <li><a href="request.html" aria-current="page">Request a Skill</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="safety.html">Safety</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main id="main">
+    <h1>Request a Skill</h1>
+    <div class="two-col">
+      <p class="intro">Looking for help with something? Tell us what you want to learn and what you can give back.</p>
+      <img src="images/request.svg" alt="A speech bubble with three dots for asking for help" width="600" height="400">
+    </div>
+    <p class="notice"><strong>Note:</strong> This form is a demo for a school project. Nothing is sent or saved.</p>
+    <form class="form" data-demo="Thank you! Your request was received. This is a demo, so nothing was sent.">
+      <p class="hint">Fields marked with * are required.</p>
+      <label for="r-name">Your first name *</label>
+      <input type="text" id="r-name" name="name" required autocomplete="given-name">
+
+      <label for="r-cat">Skill group *</label>
+      <select id="r-cat" name="category" required>
+        <option value="">Choose one</option>
+        <option>Tutoring and School Help</option>
+        <option>Tech Skills</option>
+        <option>Home, Garden and Repair</option>
+        <option>Arts, Music and Culture</option>
+      </select>
+
+      <label for="r-skill">What do you want to learn? *</label>
+      <input type="text" id="r-skill" name="skill" required>
+
+      <label for="r-give">What can you teach in return?</label>
+      <input type="text" id="r-give" name="give">
+
+      <label for="r-level">Your level</label>
+      <select id="r-level" name="level">
+        <option>Beginner</option>
+        <option>Some experience</option>
+        <option>Advanced</option>
+      </select>
+
+      <label for="r-more">More details</label>
+      <textarea id="r-more" name="details" rows="4"></textarea>
+
+      <label class="check"><input type="checkbox" name="safety" required> I have read the <a href="safety.html">safety tips</a>. *</label>
+
+      <button type="submit" class="button button-teal">Send my request</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>SkillSwap Baguio</strong>: a school project for UN SDG 4, Quality Education.</p>
+      <nav aria-label="Footer menu">
+        <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="videos.html">Video Tutorials</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="references.html">References and Attributions</a></li>
+        </ul>
+      </nav>
+      <p>Made by Kurt Wagayan, University of Baguio, School of Information Technology.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

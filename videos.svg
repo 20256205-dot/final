@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Play button</title>
+  <rect width="600" height="400" fill="#e8f0fb"/>
+  <rect x="110" y="80" width="380" height="240" rx="20" fill="#134e4a"/>
+  <polygon points="260,150 260,250 350,200" fill="#ffffff"/>
+  <rect x="200" y="335" width="200" height="14" rx="7" fill="#c2410c"/>
+</svg>

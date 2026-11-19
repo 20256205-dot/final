@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Two people</title>
+  <rect width="600" height="400" fill="#e6f4f1"/>
+  <circle cx="200" cy="140" r="45" fill="#0f766e"/>
+  <ellipse cx="200" cy="290" rx="80" ry="75" fill="#0f766e"/>
+  <circle cx="400" cy="140" r="45" fill="#c2410c"/>
+  <ellipse cx="400" cy="290" rx="80" ry="75" fill="#c2410c"/>
+</svg>

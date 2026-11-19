@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Open book</title>
+  <rect width="600" height="400" fill="#fdf3e1"/>
+  <path d="M300 110 L120 140 L120 320 L300 290 Z" fill="#0f766e"/>
+  <path d="M300 110 L480 140 L480 320 L300 290 Z" fill="#c2410c"/>
+  <rect x="150" y="170" width="120" height="10" fill="#ffffff"/>
+  <rect x="150" y="200" width="100" height="10" fill="#ffffff"/>
+  <rect x="330" y="170" width="120" height="10" fill="#ffffff"/>
+  <rect x="330" y="200" width="100" height="10" fill="#ffffff"/>
+</svg>

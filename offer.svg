@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Gift box</title>
+  <rect width="600" height="400" fill="#e6f4f1"/>
+  <rect x="170" y="170" width="260" height="170" fill="#c2410c"/>
+  <rect x="150" y="130" width="300" height="50" fill="#0f766e"/>
+  <rect x="280" y="130" width="40" height="210" fill="#ffffff"/>
+  <path d="M300 130 C250 60 190 90 230 130 Z" fill="#134e4a"/>
+  <path d="M300 130 C350 60 410 90 370 130 Z" fill="#134e4a"/>
+</svg>

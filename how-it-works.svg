@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img">
+  <title>Two circles joined by a bar</title>
+  <rect width="600" height="400" fill="#e6f4f1"/>
+  <circle cx="170" cy="200" r="100" fill="#0f766e"/>
+  <circle cx="430" cy="200" r="100" fill="#c2410c"/>
+  <rect x="170" y="188" width="260" height="24" fill="#134e4a"/>
+  <polygon points="300,160 340,200 300,240" fill="#ffffff"/>
+</svg>
